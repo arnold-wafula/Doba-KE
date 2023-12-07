@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/music', function () {
+    return view('');
+});
+
+Route::get('/videos', function() {
+    return view('videos');
+});
